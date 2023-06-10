@@ -61,7 +61,7 @@ button:focus{
 }
 .chat-menu {
     width: 20vw;
-    background-color: #F8F9FA;
+    background-color: white;
 }
 .chat-menu img {
     width: 3.1em;
