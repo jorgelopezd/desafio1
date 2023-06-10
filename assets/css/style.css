@@ -1,84 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.main{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto' !important;
+
+}
+
+.main {
     display: flex;
 }
-.button-container{
+
+
+/* seccion button */
+.button-container {
     display: flex;
     justify-content: center;
     height: 150px;
     align-items: center;
 }
-
-.button button{
+.button button {
     width: 185px;
     height: 50px;
     background-color: #A491D2;
     opacity: 50%;
     border: none;
 }
-.fotoestado img{
+
+/* seccion estado */
+.fotoestado {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+.fotoestado img {
     height: 35px;
     width: 35px;
     border-radius: 100%;
 }
-.container{
-display: flex;
-justify-content: space-around;
-align-items: center;
-border-bottom: 1px solid #BEC1BB;
-margin: 10px;
+
+
+/* seccion chatlist */
+.container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BEC1BB;
+    margin: 10px;
 }
-.chat-menu{
-    height: 100vh;
-    width: 30vw;
+.chat-menu {
+    width: 20vw;
     background-color: #F8F9FA;
 }
-.chat-menu img{
+.chat-menu img {
     width: 50px;
     height: 50px;
 }
-.fotoperfil img{
+.fotoperfil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+.fotoperfil img {
     border-radius: 100%;
-
 }
 .informacion{
-
+    width: 150px;
 }
 
-
-
-
-
-
 /* seccion comienza */
-
-.nertworking{
+.nertworking {
     height: 100vh;
     width: 70vw;
     background-color: #F8F8F8;
 }
-.nertworking img{
+.nertworking img {
     width: 250px;
     height: 250px;
     padding: 20px;
 }
-.nertworking{
+.nertworking {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.nertworking h1{
+.nertworking h1 {
     font-size: 50px;
     align-self: center;
-    
 }
-.nertworking p{
+.nertworking p {
     align-self: center;
     font-size: 16px;
 }
-.nertworking img{
+.nertworking img {
     align-self: center;
 }
