@@ -5,16 +5,36 @@
 .main{
     display: flex;
 }
+.button-container{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.button button{
+    width: 185px;
+    height: 50px;
+    background-color: #A491D2;
+    opacity: 50%;
+    border: none;
+}
+.fotoestado img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
 .container{
 display: flex;
 justify-content: space-around;
 align-items: center;
-
+border-bottom: 1px solid #BEC1BB;
+margin: 10px;
 }
 .chat-menu{
     height: 100vh;
     width: 30vw;
-    background-color: aquamarine;
+    background-color: #F8F9FA;
 }
 .chat-menu img{
     width: 50px;
@@ -38,7 +58,7 @@ align-items: center;
 .nertworking{
     height: 100vh;
     width: 70vw;
-    background-color: #F8F9FA;
+    background-color: #F8F8F8;
 }
 .nertworking img{
     width: 250px;
